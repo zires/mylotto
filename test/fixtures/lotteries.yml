@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lucky_date: 2014-02-10
+  lun: MyString
+  number: 1
+  units_of_number: 1
+
+two:
+  lucky_date: 2014-02-10
+  lun: MyString
+  number: 1
+  units_of_number: 1
