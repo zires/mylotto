@@ -24,9 +24,4 @@ namespace :data do
     spider.crawl
   end
 
-  desc "Analysis! Comeon baby!!!"
-  task analysis: :environment do
-
-  end
-
 end
