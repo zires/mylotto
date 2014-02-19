@@ -31,7 +31,7 @@ class Lottery < ActiveRecord::Base
       outline.each do |k,v|
         outline[k] += probability[k]
       end
-      outline.sort { |a1, a2| a2[1] <=> a1[1] }[0,interception].map { |n| n.first }
+      outline.sort { |a1, a2| a2[1] <=> a1[1] }[0,interception].map { |n| n.first }.sort
     end
 
     # 概率最小和最大的差值
